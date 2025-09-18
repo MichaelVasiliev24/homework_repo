@@ -4,7 +4,6 @@ def f(a,b):
     s0, s1 = 1 ,0 
     t0, t1 = 0, 1
     while b != 0:
-        r = b
         q = a // b
         si = s0 - q * s1
         ti = t0 - q * t1
